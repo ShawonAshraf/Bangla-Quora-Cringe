@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		038AB30A2363A46D008EA02C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 038AB3092363A46C008EA02C /* data.json */; };
 		038AB30C2363A4AB008EA02C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB30B2363A4AB008EA02C /* Post.swift */; };
 		038AB30E2363A4F2008EA02C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB30D2363A4F2008EA02C /* Helper.swift */; };
+		038AB3162363A97A008EA02C /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 038AB3152363A97A008EA02C /* KingfisherSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038AB3162363A97A008EA02C /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +102,9 @@
 			dependencies = (
 			);
 			name = "Bangla Quora Cringe";
+			packageProductDependencies = (
+				038AB3152363A97A008EA02C /* KingfisherSwiftUI */,
+			);
 			productName = "Bangla Quora Cringe";
 			productReference = 038AB2F22363A346008EA02C /* Bangla Quora Cringe.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 038AB2E92363A345008EA02C;
+			packageReferences = (
+				038AB3142363A97A008EA02C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 038AB2F32363A346008EA02C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -296,18 +304,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bangla Quora Cringe/Bangla Quora Cringe.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bangla Quora Cringe/Preview Content\"";
+				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Bangla Quora Cringe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "shawonashraf.Bangla-Quora-Cringe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,18 +327,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bangla Quora Cringe/Bangla Quora Cringe.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bangla Quora Cringe/Preview Content\"";
+				DEVELOPMENT_TEAM = VF3Y7UU4D6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Bangla Quora Cringe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "shawonashraf.Bangla-Quora-Cringe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -352,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		038AB3142363A97A008EA02C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		038AB3152363A97A008EA02C /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 038AB3142363A97A008EA02C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 038AB2EA2363A345008EA02C /* Project object */;
 }

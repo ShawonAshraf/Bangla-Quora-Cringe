@@ -7,15 +7,29 @@
 //
 
 import SwiftUI
+import KingfisherSwiftUI
 
 struct ContentView: View {
     let posts = loadJSON()
     
     var body: some View {
         NavigationView {
-            List(posts) { post in
-                Text(post.comment)
-            }.navigationBarTitle("বাংলা কুয়োরা ক্রিঞ্জ")
+            List {
+                ForEach(posts) { post in
+                    Section {
+                        VStack(alignment: .leading) {
+                            KFImage(URL(string: post.imageUrl)!)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                            
+                            Text(post.comment)
+                                .font(.subheadline)
+                        }.padding()
+                    }
+                }
+            }
+            .navigationBarTitle("বাংলা কুয়োরা ক্রিঞ্জ")
+            .listStyle(GroupedListStyle())
         }
     }
 }
