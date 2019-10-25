@@ -13,6 +13,7 @@
 		038AB2FC2363A347008EA02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038AB2FB2363A347008EA02C /* Assets.xcassets */; };
 		038AB2FF2363A347008EA02C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038AB2FE2363A347008EA02C /* Preview Assets.xcassets */; };
 		038AB3022363A347008EA02C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038AB3002363A347008EA02C /* LaunchScreen.storyboard */; };
+		038AB30A2363A46D008EA02C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 038AB3092363A46C008EA02C /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		038AB2FE2363A347008EA02C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		038AB3012363A347008EA02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		038AB3032363A347008EA02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038AB3092363A46C008EA02C /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				038AB2F52363A346008EA02C /* AppDelegate.swift */,
+				038AB3092363A46C008EA02C /* data.json */,
 				038AB2F72363A346008EA02C /* SceneDelegate.swift */,
 				038AB2F92363A346008EA02C /* ContentView.swift */,
 				038AB2FB2363A347008EA02C /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 				038AB3022363A347008EA02C /* LaunchScreen.storyboard in Resources */,
 				038AB2FF2363A347008EA02C /* Preview Assets.xcassets in Resources */,
 				038AB2FC2363A347008EA02C /* Assets.xcassets in Resources */,
+				038AB30A2363A46D008EA02C /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
