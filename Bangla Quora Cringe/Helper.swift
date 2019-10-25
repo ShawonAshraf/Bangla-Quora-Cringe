@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+func loadJSON() -> [Post] {
+    var posts: [Post] = []
+    
+    if let filePath = Bundle.main.path(forResource: "data", ofType: "json") {
+        let reader = FileHandle(forReadingAtPath: filePath)
+        guard let json = reader?.readDataToEndOfFile() else { return posts }
+        
+        guard let parsed = try? JSONDecoder().decode([Post].self, from: json) else { return posts }
+        posts = parsed
+    }
+    
+    return posts
+}
