@@ -307,7 +307,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Bangla Quora Cringe/Bangla Quora Cringe.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bangla Quora Cringe/Preview Content\"";
-				DEVELOPMENT_TEAM = VF3Y7UU4D6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Bangla Quora Cringe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
@@ -330,7 +330,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Bangla Quora Cringe/Bangla Quora Cringe.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bangla Quora Cringe/Preview Content\"";
-				DEVELOPMENT_TEAM = VF3Y7UU4D6;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Bangla Quora Cringe/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
