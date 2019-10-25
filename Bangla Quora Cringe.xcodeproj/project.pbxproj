@@ -14,6 +14,8 @@
 		038AB2FF2363A347008EA02C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038AB2FE2363A347008EA02C /* Preview Assets.xcassets */; };
 		038AB3022363A347008EA02C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038AB3002363A347008EA02C /* LaunchScreen.storyboard */; };
 		038AB30A2363A46D008EA02C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 038AB3092363A46C008EA02C /* data.json */; };
+		038AB30C2363A4AB008EA02C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB30B2363A4AB008EA02C /* Post.swift */; };
+		038AB30E2363A4F2008EA02C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB30D2363A4F2008EA02C /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		038AB3012363A347008EA02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		038AB3032363A347008EA02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		038AB3092363A46C008EA02C /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		038AB30B2363A4AB008EA02C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		038AB30D2363A4F2008EA02C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				038AB3002363A347008EA02C /* LaunchScreen.storyboard */,
 				038AB3032363A347008EA02C /* Info.plist */,
 				038AB2FD2363A347008EA02C /* Preview Content */,
+				038AB30B2363A4AB008EA02C /* Post.swift */,
+				038AB30D2363A4F2008EA02C /* Helper.swift */,
 			);
 			path = "Bangla Quora Cringe";
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 			files = (
 				038AB2F62363A346008EA02C /* AppDelegate.swift in Sources */,
 				038AB2F82363A346008EA02C /* SceneDelegate.swift in Sources */,
+				038AB30E2363A4F2008EA02C /* Helper.swift in Sources */,
 				038AB2FA2363A346008EA02C /* ContentView.swift in Sources */,
+				038AB30C2363A4AB008EA02C /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

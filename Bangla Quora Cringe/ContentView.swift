@@ -9,8 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    let posts = loadJSON()
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List(posts) { post in
+                Text(post.comment)
+            }.navigationBarTitle("বাংলা কুয়োরা ক্রিঞ্জ")
+        }
     }
 }
 
