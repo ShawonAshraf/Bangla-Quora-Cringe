@@ -10,6 +10,8 @@ import SwiftUI
 import KingfisherSwiftUI
 
 struct ContentView: View {
+    @State var showingSheet: Bool = false
+    
     let posts = loadJSON()
     
     var body: some View {
@@ -17,14 +19,24 @@ struct ContentView: View {
             List {
                 ForEach(posts) { post in
                     Section {
-                        VStack(alignment: .leading) {
-                            KFImage(URL(string: post.imageUrl)!)
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
+                        HStack {
+                            VStack(alignment: .leading) {
+                                KFImage(URL(string: post.imageUrl)!)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                
+                                Text(post.comment)
+                                    .font(.subheadline)
+                            }.padding()
                             
-                            Text(post.comment)
-                                .font(.subheadline)
-                        }.padding()
+                            Button(action: {
+                                self.showingSheet.toggle()
+                            }) {
+                                Image(systemName: "square.and.arrow.up")
+                            }.sheet(isPresented: self.$showingSheet, onDismiss: nil) {
+                                ShareSheet(activityItems: [URL(string: post.imageUrl)!])
+                            }
+                        }
                     }
                 }
             }

@@ -17,6 +17,7 @@
 		038AB30C2363A4AB008EA02C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB30B2363A4AB008EA02C /* Post.swift */; };
 		038AB30E2363A4F2008EA02C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038AB30D2363A4F2008EA02C /* Helper.swift */; };
 		038AB3162363A97A008EA02C /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 038AB3152363A97A008EA02C /* KingfisherSwiftUI */; };
+		03E9ADCA2363BD1A0074869E /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9ADC92363BD1A0074869E /* ShareSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		038AB3092363A46C008EA02C /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		038AB30B2363A4AB008EA02C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		038AB30D2363A4F2008EA02C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		03E9ADC92363BD1A0074869E /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				038AB2FD2363A347008EA02C /* Preview Content */,
 				038AB30B2363A4AB008EA02C /* Post.swift */,
 				038AB30D2363A4F2008EA02C /* Helper.swift */,
+				03E9ADC92363BD1A0074869E /* ShareSheet.swift */,
 			);
 			path = "Bangla Quora Cringe";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				038AB2F62363A346008EA02C /* AppDelegate.swift in Sources */,
+				03E9ADCA2363BD1A0074869E /* ShareSheet.swift in Sources */,
 				038AB2F82363A346008EA02C /* SceneDelegate.swift in Sources */,
 				038AB30E2363A4F2008EA02C /* Helper.swift in Sources */,
 				038AB2FA2363A346008EA02C /* ContentView.swift in Sources */,
