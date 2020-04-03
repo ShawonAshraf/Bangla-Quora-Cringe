@@ -2,9 +2,8 @@
 //  ShareSheet.swift
 //  Bangla Quora Cringe
 //
-//  Created by Shawon Ashraf on 10/26/19.
-//  Copyright © 2019 Shawon Ashraf. All rights reserved.
-//
+// From https://github.com/AlanQuatermain/SwiftUIShareSheetDemo
+// Check out - https://forums.developer.apple.com/thread/123951
 
 import Foundation
 import SwiftUI
